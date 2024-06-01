@@ -28,13 +28,9 @@ if(operationAns.operation === "withdraw"){
      console.log( "your remaining balance is : " +  myBalance);
     } else {
         console.log("Your balance is insufficient");
-
-     }
 }
-else if(
-    operationAns.operation === "check balance"
-) 
-{
+}
+else if(operationAns.operation === "check balance"){
     console.log( `your  current balance is ${myBalance}`);
 }else if( operationAns.operation === "transfer money"){
     let tranferMoney = await inquirer.prompt([{
