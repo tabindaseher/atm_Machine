@@ -1,0 +1,19 @@
+{
+  "name": "th-61-new-atm_machine",
+  "version": "1.0.0",
+  "description": "This is cli based atm_machine.",
+  "main": "index.js",
+  "type": "module",
+  "bin":"main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
